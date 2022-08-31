@@ -16,5 +16,5 @@ sh "scp /home/ubuntu/.jenkins/workspace/DeclarativePipelinewithSharedLibrarires/
 
 def runSelenium(path)
 {
-sh "java -jar $path/testing.jar"
+ sh "java -jar ${path}/testing.jar"
 }
